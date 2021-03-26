@@ -1,0 +1,107 @@
+
+> dashboard@0.1.0 cypress
+> $(npm bin)/cypress run
+
+
+====================================================================
+
+  (Run Starting)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Cypress:    3.8.3                                                                              │
+  │ Browser:    Electron 78 (headless)                                                             │
+  │ Specs:      2 found (credencials.spec.js, home.spec.js)                                        │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  credencials.spec.js                                                             (1 of 2)
+
+
+  Credencials
+
+    ✓ should generate an api_key (13506ms)
+
+
+  1 passing (15s)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     14 seconds                                                                       │
+  │ Spec Ran:     credencials.spec.js                                                              │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Video)
+
+  -  Started processing:  Compressing to 32 CRF                                                     
+  -  Finished processing: tests/e2e/videos/credencials.spec.js.mp4                       (3 seconds)
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  home.spec.js                                                                    (2 of 2)
+
+
+  home
+
+    ✓ should render create account modal when click on cta create account button (2993ms)
+
+    ✓ should render create account modal when click on header create account button (1085ms)
+
+    ✓ should render login modal when click on header login button (647ms)
+
+    ✓ should login with an email and password (2098ms)
+
+    ✓ should show an error with an invalid email (1483ms)
+
+    ✓ should logout work correct (2307ms)
+
+
+  6 passing (12s)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        6                                                                                │
+  │ Passing:      6                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     11 seconds                                                                       │
+  │ Spec Ran:     home.spec.js                                                                     │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Video)
+
+  -  Started processing:  Compressing to 32 CRF                                                     
+  -  Finished processing: tests/e2e/videos/home.spec.js.mp4                              (3 seconds)
+
+
+====================================================================
+
+  (Run Finished)
+
+
+       Spec                                              Tests  Passing  Failing  Pending  Skipped  
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ ✔  credencials.spec.js                      00:14        1        1        -        -        - |
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✔  home.spec.js                             00:11        6        6        -        -        - │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+    ✔  All specs passed!                        00:26        7        7        -        -        -  
+
