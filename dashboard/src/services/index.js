@@ -7,12 +7,12 @@ import { setGlobalLoading } from '../store/global'
 
 const API_ENVS = {
   production: 'https://backend-treinamento-vue3-rho.vercel.app',
-  development: '',
-  local: 'http://localhost:3000'
+  development: 'http://localhost:3000',
+  local: ''
 }
 
 const httpClient = axios.create({
-  baseURL: API_ENVS[process.env.NODE_ENV] ?? API_ENVS.local
+  baseURL: API_ENVS[process.env.NODE_ENV] || API_ENVS.local
 })
 
 httpClient.interceptors.request.use(config => {

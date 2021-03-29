@@ -6,11 +6,13 @@
 import Loading from './Loading'
 import Copy from './Copy'
 import ChevronDown from './ChevronDown'
+import ChevronUp from './ChevronUp'
 export default {
   components: {
     Loading,
     Copy,
-    ChevronDown
+    ChevronDown,
+    ChevronUp
   },
   props: {
     name: { type: String, required: true }
